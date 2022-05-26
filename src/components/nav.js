@@ -1,11 +1,12 @@
+import React from 'react';
 import logo from '../pictures/logo.png'
 
-function Menu() {
+function Nav() {
   return ( 
-    <nav id="nav-1"> 
+    <nav id="nav"> 
       <div id="logo">    
       <img src={logo} alt="logo" /> 
-      <h3>Soundwave</h3> 
+      <h3 id="h3-nav">Soundwave</h3> 
       </div> 
       <div id="botones">
        <button className='nav-buttons' type="button">Discover</button> 
@@ -15,4 +16,4 @@ function Menu() {
    );
 }
 
-export default Menu;
+export default Nav;

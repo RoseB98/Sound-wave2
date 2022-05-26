@@ -1,10 +1,35 @@
-.nav-buttons{
-  color:blue;
+
+*{
+  margin:auto;
+  padding:auto; 
+  font-family: Poppins; 
+}
+
+body{
+  background-color: #2F303A; 
+ 
+}  
+
+/*NAV*/ 
+
+.nav-buttons{ 
+  background-color: transparent;
+  color:white; 
+  border: none;
 } 
 
-#nav-1{
+#h3-nav{
+  color:white;
+}
+
+#nav{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-between; 
+  position: sticky;
+  height:4em;
+  top: 0px;
+  margin-bottom: 2em;
+  z-index:999;
 }
 
 #logo{
@@ -15,7 +40,115 @@
   display:flex;
 } 
 
-body{
-  background-color: #2F303A;
+/* 1ERA PAGINA*/ 
+
+.section1{ 
+  height:100vh; 
+  
+} 
+.section1p{
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  margin-top: 6.5em;
+  margin-left: 18em; 
+} 
+.texto1p{
+ display:flex;
+ flex-direction:column;
+ margin-left: 10em;
+ margin-top: 10em;
+} 
+
+#h1-1{
+color: white;
+margin-bottom: 0.5em; 
+font-size: 3em;
 }
 
+#p-1{
+color: white;
+margin-bottom: 1em;
+}
+
+#button-main{
+background-color:#1762A7;
+color:white; 
+width: 8em;
+height:3em;
+border-radius: 0.5em; 
+border-style: none;
+}
+#circulo1{
+background:#3457b21a;
+opacity: 100%;
+width: 23em;
+height: 23em;
+border-radius: 100%; 
+margin-left: 30em; 
+position: absolute; top: 5vw; left: -2vw;
+z-index: 1;
+} 
+
+#circulo2{
+background:#bc3a801a;
+opacity: 100%;
+width: 23em;
+height: 23em;
+border-radius: 100%; 
+margin-top: 12em;
+margin-left: 5em;
+position: absolute; top:4vw; left:1vw;
+z-index: 1;
+}
+
+#div-circulo{
+height:10em; 
+width:10em;
+overflow: hidden;
+}
+
+#circulo3{
+background:#3457b21a;
+opacity: 100%;
+width: 35em;
+height: 35em;
+border-radius: 100%; 
+position: absolute;
+z-index: 1; 
+margin-top: 21em;
+margin-left: 73em;
+} 
+
+.landing-img{
+  width:24em; 
+  
+} 
+
+  /*2DA PAGINA*/
+
+  /*.section2p{
+   background-color: blue;
+  }*/
+
+  .fotos-container{
+    display: flex;
+    
+    padding-top: 10em;
+  }
+
+  #fotitos1p{
+    background-color: #202027;
+    width:5em;
+    height: 5em;
+  } 
+  #fotitos2p{
+    background-color: #202027;
+    width:5em;
+    height: 5em;
+  }
+  #fotitos3p{
+    background-color: #202027;
+    width:5em;
+    height: 5em;
+  }
