@@ -9,8 +9,8 @@ function Nav() {
       <h3 id="h3-nav">Soundwave</h3> 
       </div> 
       <div id="botones">
-       <button className='nav-buttons' type="button">Discover</button> 
-       <button className='nav-buttons' type="button">Join</button> 
+       <a href="#section-2">Discover</a>
+       <a href="#section-3">Join</a>
        </div>
     </nav> 
    );

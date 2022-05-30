@@ -2,20 +2,17 @@
 *{
   margin:auto;
   padding:auto; 
-  font-family: Poppins; 
+  /*@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Poppins:wght@100&family=Square+Peg&family=Tangerine:wght@700&display=swap');
+  font-family: Poppins, sans-serif; */
 }
 
 body{
   background-color: #2F303A; 
+
 }  
 
 /*NAV*/ 
 
-.nav-buttons{ 
-  background-color: transparent;
-  color:white; 
-  border: none;
-} 
 
 #h3-nav{
   color:white;
@@ -42,9 +39,16 @@ body{
 }
 
 #botones{
+  width: 10em;
   display:flex;
+  justify-content: space-between;
   padding-top: 2em;
 } 
+#botones a{
+  text-decoration: none;
+  color: white;
+}
+
 
 /* 1ERA PAGINA*/ 
 
@@ -85,6 +89,7 @@ height:3em;
 border-radius: 0.5em; 
 border-style: none;
 }
+
 #circulo1{
 background:#3457b21a;
 opacity: 100%;
@@ -123,7 +128,7 @@ position: relative; bottom: 50vh; left: 95vh;
 
   .section2{
     padding-top: 6em;
-    height: 87vh;
+    height: 90vh;
     display: flex;
   } 
 
@@ -138,8 +143,7 @@ position: relative; bottom: 50vh; left: 95vh;
     height: 15em;
     display: flex;
     flex-direction: column;
-    column-gap: 2.5em;
-   
+    column-gap: 2.5em; 
   }
 
   .fotos-container{
@@ -181,7 +185,7 @@ position: relative; bottom: 50vh; left: 95vh;
     color:white;
   } 
   #h1-2{
-    font-size: 2.5em;
+    font-size: 2.5em; 
   }
   .fotos-container img{
     width:3em; 
@@ -194,8 +198,67 @@ position: relative; bottom: 50vh; left: 95vh;
   /*3RA PAGINA*/ 
 
   .section3{
-    height: 100vh;
+    margin-top: 3em;
+    height: 94vh;
+    position: relative;
     overflow: hidden;
+  } 
+
+  .text-container{
+    display: flex;
+    height: 94vh;
+    width: 55vw;
+   }
+
+  span{
+    color: #BC3A80;
+  }
+
+  #p3{ 
+    color:white;
+    font-size: 5em; 
+    font-weight: bolder;
+  }
+
+  #form{
+    background-color: #202027;
+    width: 22em;
+    height: 20em;
+    border-radius: 1.5em; 
+    column-gap: 2em;
+    display: flex;   
+    flex-direction: column;
+    align-content: center;
+  } 
+  #form li{
+    list-style: none;
+    text-align: left;
+  } 
+
+  .lista{
+    display: flex;
+    flex-direction: column;
+  } 
+  .lista label{
+    color: white; 
+  } 
+  .lista input{
+    background-color: transparent;
+    outline: 0 none;
+    border-color: #2E3852;
+    border-style: solid;
+    border-radius: 0.2em;
+    width: 20em;
+    height: 1.5em;
+  } 
+
+  #boton-form{
+   background-color: #2796ff;
+   color: white; 
+   border: none;
+   width: 18em;
+   height: 2em;
+   border-radius: 0.4em;
   }
 
   #circulo4{
@@ -204,15 +267,65 @@ position: relative; bottom: 50vh; left: 95vh;
     width: 25em;
     height: 25em;
     border-radius: 100%; 
-    position: relative; bottom: 13vh; right: 36vh;
+    position: absolute; bottom: 25em; right: 52em;
+    z-index: 1;
   }
 
   #circulo5{
     background:#bc3a801a;
     opacity: 100%;
-    width: 30em;
-    height: 30em;
+    width: 35em;
+    height: 35em;
     border-radius: 100%; 
-    position: relative; bottom: 5vh; right: 80vh;
+    position: absolute; top: 18em; right: 65em;
+    z-index: 1;
   }
+
+
+
+  /*Footer */
+
+   footer{
+    background-color: #202027;
+    width: 94.9em;
+    height: 3em;
+    margin-left: -0.3em;
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  #social{
+    display: flex;
+    justify-content: space-around; 
+    width: 15em;
+  } 
+
+  #social p{
+    color: white;
+    font-size: 1em;
+  }
+
+  #twitter{
+    display: flex;
+    justify-content: space-around;
+    width: 6em;
+  }  
+  #facebook{
+    display: flex;
+    justify-content: space-around;
+    width: 7em;
+  } 
+
+  #about{
+    display: flex;
+    justify-content: space-between;
+    width: 11em;
+  }
+
+  #about p{
+   color: white;  
+  }
+
+
+
 
