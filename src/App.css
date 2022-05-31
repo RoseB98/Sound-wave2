@@ -8,7 +8,7 @@
 
 body{
   background-color: #2F303A; 
-
+ /* margin:auto;*/
 }  
 
 /*NAV*/ 
@@ -54,6 +54,7 @@ body{
 
 .section1{ 
   height:87vh; 
+  width: 100%;
   overflow: hidden;
 } 
 .section1p{
@@ -178,7 +179,6 @@ position: relative; bottom: 50vh; left: 95vh;
   #covers{
     width:16em;
     height:18em;
-   
   } 
 
   .section2 p, h1{
@@ -228,12 +228,14 @@ position: relative; bottom: 50vh; left: 95vh;
     column-gap: 2em;
     display: flex;   
     flex-direction: column;
-    align-content: center;
   } 
   #form li{
     list-style: none;
     text-align: left;
   } 
+  #form ul{
+    padding:0;
+  }
 
   .lista{
     display: flex;
@@ -241,6 +243,8 @@ position: relative; bottom: 50vh; left: 95vh;
   } 
   .lista label{
     color: white; 
+    align-self: flex-start;
+    margin: 0;
   } 
   .lista input{
     background-color: transparent;

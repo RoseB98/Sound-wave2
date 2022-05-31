@@ -8,7 +8,7 @@ import Footer from './Footer'
 function Section2 (){
   return( 
     <>
-      <section className="section2" id="section-2"> 
+      <section className="section2"> 
       <div id="all-container">
        <div id="img-text-container">
          <h1 id="h1-2">Discover new music</h1>
